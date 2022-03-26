@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   subnet_id     = "subnet-02e70ebeb32953095"
   key_name      = "2marchkey"
   tags = {
-    Name = "Terraform_27Demo"
+    Name = "Terraform_26marchDemo"
     quality = "cerated by user"
   }
   vpc_security_group_ids = [aws_security_group.allow_http.id]
