@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow_http" {
-  name        = "allow_http"
+  name        = "allow_26marchhttp"
   description = "Allow http inbound traffic"
   vpc_id      = "vpc-0c5c67a64eb1a9801"
 
